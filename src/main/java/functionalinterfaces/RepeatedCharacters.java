@@ -2,22 +2,8 @@ package functionalinterfaces;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public class RepeatedCharacters {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // Prompt the user to enter a string
-        System.out.print("Enter a string: ");
-        String str = scanner.nextLine();
-
-        // Call method to identify and print repeated characters
-        printRepeatedCharacters(str);
-
-        scanner.close();
-    }
 
     public static void printRepeatedCharacters(String str) {
         // Create a HashMap to store characters and their frequencies

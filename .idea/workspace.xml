@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cc2cd0f-da87-4319-b953-cb9c5895aaa4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/FactorialCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/ReapedCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/SwapWithoutThirdVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/ArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/SwapValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/ArraySumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/FactorialCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/PalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/RepeatedCharactersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/SwapValuesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functionalinterfaces/FactorialCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/FactorialCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functionalinterfaces/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functionalinterfaces/RepeatedCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/RepeatedCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functionalinterfaces/SwapWithoutThirdVariable.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2bj6V1gmiyya9K8Tvs4o4HOzOJ9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,6 +49,7 @@
     "Application.Palindrome.executor": "Run",
     "Application.RepeatedCharacters.executor": "Run",
     "Application.SwapWithoutThirdVariable.executor": "Run",
+    "JUnit.PalindromeTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -57,7 +59,7 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PalindromeTest">
     <configuration name="RepeatedCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functionalinterfaces.RepeatedCharacters" />
       <module name="maven" />
@@ -71,8 +73,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functionalinterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="functionalinterfaces" />
+      <option name="MAIN_CLASS_NAME" value="functionalinterfaces.PalindromeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromeTest" />
         <item itemvalue="Application.RepeatedCharacters" />
       </list>
     </recent_temporary>
