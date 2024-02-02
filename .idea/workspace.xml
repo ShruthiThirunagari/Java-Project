@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cc2cd0f-da87-4319-b953-cb9c5895aaa4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/ArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/SwapValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/ArraySumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/FactorialCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/PalindromeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/RepeatedCharactersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/SwapValuesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/ArrayListReverser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/CaseConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/StringRotationChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/UniqueWordCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/ArrayListReverserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/CaseConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/StringRotationCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/UniqueWordCounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functionalinterfaces/FactorialCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/FactorialCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functionalinterfaces/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functionalinterfaces/RepeatedCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/RepeatedCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functionalinterfaces/SwapWithoutThirdVariable.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FactorialCalculator.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.RepeatedCharacters.executor": "Run",
-    "Application.SwapWithoutThirdVariable.executor": "Run",
-    "JUnit.PalindromeTest.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FactorialCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RepeatedCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwapWithoutThirdVariable.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PalindromeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.PalindromeTest">
     <configuration name="RepeatedCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functionalinterfaces.RepeatedCharacters" />
