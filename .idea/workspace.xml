@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cc2cd0f-da87-4319-b953-cb9c5895aaa4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/ArrayListReverser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/CaseConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/StringRotationChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/UniqueWordCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/ArrayListReverserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/CaseConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/StringRotationCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/functionalinterfaces/UniqueWordCounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/AverageOfSquaresOfOddNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/CapitalizeandSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/IntegerProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/MathOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/StringFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/StringSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/SumOfSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/VowelCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/AverageOfSquaresOfOddNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/CapitalizeandSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/IntegerProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/MathOperationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/StringFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/StringSorterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/SumOfSquaresTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/VowelCounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,23 +47,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FactorialCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RepeatedCharacters.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwapWithoutThirdVariable.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PalindromeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FactorialCalculator.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.RepeatedCharacters.executor": "Run",
+    "Application.SwapWithoutThirdVariable.executor": "Run",
+    "Application.VowelCounter.executor": "Run",
+    "JUnit.AverageOfSquaresOfOddNumbersTest.executor": "Run",
+    "JUnit.CapitalizeandSortTest.executor": "Run",
+    "JUnit.IntegerProcessorTest.executor": "Run",
+    "JUnit.MathOperationTest.executor": "Run",
+    "JUnit.PalindromeTest.executor": "Run",
+    "JUnit.SortStringsTest.executor": "Run",
+    "JUnit.StringFilterTest.executor": "Run",
+    "JUnit.StringSorterTest.executor": "Run",
+    "JUnit.SumOfSquaresTest.executor": "Run",
+    "JUnit.VowelCounterTest (1).executor": "Run",
+    "JUnit.VowelCounterTest.executor": "Run",
+    "JUnit.VowelCounterTest.testContainsVowels.executor": "Run",
+    "JUnit.VowelCounterTest.testcontainsVowels.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.PalindromeTest">
+}]]></component>
+  <component name="RunManager">
     <configuration name="RepeatedCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functionalinterfaces.RepeatedCharacters" />
       <module name="maven" />
@@ -84,8 +105,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VowelCounterTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VowelCounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VowelCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambdas" />
+      <option name="MAIN_CLASS_NAME" value="lambdas.VowelCounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VowelCounterTest.testcontainsVowels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambdas" />
+      <option name="MAIN_CLASS_NAME" value="lambdas.VowelCounterTest" />
+      <option name="METHOD_NAME" value="testcontainsVowels" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VowelCounterTest" />
+        <item itemvalue="JUnit.VowelCounterTest.testcontainsVowels" />
+        <item itemvalue="JUnit.VowelCounterTest (1)" />
         <item itemvalue="JUnit.PalindromeTest" />
         <item itemvalue="Application.RepeatedCharacters" />
       </list>
