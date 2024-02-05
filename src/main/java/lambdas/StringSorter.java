@@ -1,15 +1,20 @@
 package lambdas;
 
 import java.util.Arrays;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class StringSorter {
-    public static void sortStrings(String[] strings) {
-            Arrays.sort(strings, (s1, s2) -> {
-                if (s1.length() != s2.length()) {
-                    return s1.length() - s2.length();
-                } else {
-                    return s2.charAt(s2.length() - 1) - s1.charAt(s1.length() - 1);
-                }
-            });
+    public static String[] sortStrings(String[] strings) {
+
+        return Stream.of(strings).sorted((s1, s2) -> {
+            if (s1.length() != s2.length()) {
+                return s1.length() - s2.length();
+            } else {
+                return Character.compare(s1.charAt(s1.length() - 1),s2.charAt(s2.length() - 1));
+            }
+        }).toArray(String[]::new);
+
     }
 
     public static void main(String[] args) {

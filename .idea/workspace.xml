@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cc2cd0f-da87-4319-b953-cb9c5895aaa4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/AverageOfSquaresOfOddNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/CapitalizeandSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/IntegerProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/MathOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/StringFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/StringSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/SumOfSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/VowelCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/AverageOfSquaresOfOddNumbersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/CapitalizeandSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/IntegerProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/MathOperationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/StringFilterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/StringSorterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/SumOfSquaresTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambdas/VowelCounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambdas/StringSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambdas/StringSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lambdas/StringSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lambdas/StringSorterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +48,7 @@
     "JUnit.SortStringsTest.executor": "Run",
     "JUnit.StringFilterTest.executor": "Run",
     "JUnit.StringSorterTest.executor": "Run",
+    "JUnit.StringSorterTest.testStringSorting.executor": "Run",
     "JUnit.SumOfSquaresTest.executor": "Run",
     "JUnit.VowelCounterTest (1).executor": "Run",
     "JUnit.VowelCounterTest.executor": "Run",
@@ -77,19 +64,6 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="RepeatedCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functionalinterfaces.RepeatedCharacters" />
-      <module name="maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functionalinterfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven" />
       <extension name="coverage">
@@ -101,6 +75,22 @@
       <option name="PACKAGE_NAME" value="functionalinterfaces" />
       <option name="MAIN_CLASS_NAME" value="functionalinterfaces.PalindromeTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringSorterTest.testStringSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambdas" />
+      <option name="MAIN_CLASS_NAME" value="lambdas.StringSorterTest" />
+      <option name="METHOD_NAME" value="testStringSorting" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringSorterTest.testStringSorting" />
         <item itemvalue="JUnit.VowelCounterTest" />
         <item itemvalue="JUnit.VowelCounterTest.testcontainsVowels" />
         <item itemvalue="JUnit.VowelCounterTest (1)" />
         <item itemvalue="JUnit.PalindromeTest" />
-        <item itemvalue="Application.RepeatedCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -165,5 +155,16 @@
       <updated>1706716160562</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/lambdas/StringSorterTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
