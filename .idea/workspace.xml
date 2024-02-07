@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cc2cd0f-da87-4319-b953-cb9c5895aaa4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/StringToIntConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exceptions/StringToIntConverterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambdas/StringSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambdas/StringSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lambdas/StringSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lambdas/StringSorterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -38,6 +42,7 @@
     "Application.FactorialCalculator.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.RepeatedCharacters.executor": "Run",
+    "Application.StringToIntConverter.executor": "Run",
     "Application.SwapWithoutThirdVariable.executor": "Run",
     "Application.VowelCounter.executor": "Run",
     "JUnit.AverageOfSquaresOfOddNumbersTest.executor": "Run",
@@ -45,10 +50,12 @@
     "JUnit.IntegerProcessorTest.executor": "Run",
     "JUnit.MathOperationTest.executor": "Run",
     "JUnit.PalindromeTest.executor": "Run",
+    "JUnit.RepeatedCharactersTest.executor": "Run",
     "JUnit.SortStringsTest.executor": "Run",
     "JUnit.StringFilterTest.executor": "Run",
     "JUnit.StringSorterTest.executor": "Run",
     "JUnit.StringSorterTest.testStringSorting.executor": "Run",
+    "JUnit.StringToIntConverterTest.executor": "Run",
     "JUnit.SumOfSquaresTest.executor": "Run",
     "JUnit.VowelCounterTest (1).executor": "Run",
     "JUnit.VowelCounterTest.executor": "Run",
@@ -60,7 +67,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
@@ -137,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromeTest" />
         <item itemvalue="JUnit.StringSorterTest.testStringSorting" />
         <item itemvalue="JUnit.VowelCounterTest" />
         <item itemvalue="JUnit.VowelCounterTest.testcontainsVowels" />
         <item itemvalue="JUnit.VowelCounterTest (1)" />
-        <item itemvalue="JUnit.PalindromeTest" />
       </list>
     </recent_temporary>
   </component>
