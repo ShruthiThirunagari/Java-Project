@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cc2cd0f-da87-4319-b953-cb9c5895aaa4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/StringToIntConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exceptions/StringToIntConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/FileReadingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/DeadLockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/EvenThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/OddThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/thread/DeadLockExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/thread/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/thread/ThreadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,7 +50,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "Application.FactorialCalculator.executor": "Run",
+    "Application.FileReadingExample.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.RepeatedCharacters.executor": "Run",
     "Application.StringToIntConverter.executor": "Run",
@@ -47,16 +61,21 @@
     "Application.VowelCounter.executor": "Run",
     "JUnit.AverageOfSquaresOfOddNumbersTest.executor": "Run",
     "JUnit.CapitalizeandSortTest.executor": "Run",
+    "JUnit.DeadLockExampleTest.executor": "Run",
+    "JUnit.DeadLockExampleTest.testDeadlock.executor": "Debug",
+    "JUnit.DeadlockExampleTest.executor": "Run",
     "JUnit.IntegerProcessorTest.executor": "Run",
     "JUnit.MathOperationTest.executor": "Run",
     "JUnit.PalindromeTest.executor": "Run",
     "JUnit.RepeatedCharactersTest.executor": "Run",
+    "JUnit.SingletonTest.executor": "Run",
     "JUnit.SortStringsTest.executor": "Run",
     "JUnit.StringFilterTest.executor": "Run",
     "JUnit.StringSorterTest.executor": "Run",
     "JUnit.StringSorterTest.testStringSorting.executor": "Run",
     "JUnit.StringToIntConverterTest.executor": "Run",
     "JUnit.SumOfSquaresTest.executor": "Run",
+    "JUnit.ThreadTest.executor": "Run",
     "JUnit.VowelCounterTest (1).executor": "Run",
     "JUnit.VowelCounterTest.executor": "Run",
     "JUnit.VowelCounterTest.testContainsVowels.executor": "Run",
@@ -71,6 +90,37 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="DeadLockExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thread" />
+      <option name="MAIN_CLASS_NAME" value="thread.DeadLockExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeadLockExampleTest.testDeadlock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thread" />
+      <option name="MAIN_CLASS_NAME" value="thread.DeadLockExampleTest" />
+      <option name="METHOD_NAME" value="testDeadlock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven" />
       <extension name="coverage">
@@ -102,15 +152,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VowelCounterTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maven" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VowelCounterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VowelCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven" />
       <extension name="coverage">
@@ -126,29 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VowelCounterTest.testcontainsVowels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambdas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambdas" />
-      <option name="MAIN_CLASS_NAME" value="lambdas.VowelCounterTest" />
-      <option name="METHOD_NAME" value="testcontainsVowels" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeadLockExampleTest" />
+        <item itemvalue="JUnit.DeadLockExampleTest.testDeadlock" />
         <item itemvalue="JUnit.PalindromeTest" />
         <item itemvalue="JUnit.StringSorterTest.testStringSorting" />
         <item itemvalue="JUnit.VowelCounterTest" />
-        <item itemvalue="JUnit.VowelCounterTest.testcontainsVowels" />
-        <item itemvalue="JUnit.VowelCounterTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +195,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/lambdas/StringSorterTest.java</url>
           <line>18</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/DeadLockExample.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
