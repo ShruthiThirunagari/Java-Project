@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cc2cd0f-da87-4319-b953-cb9c5895aaa4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/FileReadingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/DeadLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/EvenThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/OddThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/thread/DeadLockExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/thread/SingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/thread/ThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5cc2cd0f-da87-4319-b953-cb9c5895aaa4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +49,7 @@
     "JUnit.AverageOfSquaresOfOddNumbersTest.executor": "Run",
     "JUnit.CapitalizeandSortTest.executor": "Run",
     "JUnit.DeadLockExampleTest.executor": "Run",
-    "JUnit.DeadLockExampleTest.testDeadlock.executor": "Debug",
+    "JUnit.DeadLockExampleTest.testDeadlock.executor": "Run",
     "JUnit.DeadlockExampleTest.executor": "Run",
     "JUnit.IntegerProcessorTest.executor": "Run",
     "JUnit.MathOperationTest.executor": "Run",
@@ -199,7 +186,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/thread/DeadLockExample.java</url>
           <line>45</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
