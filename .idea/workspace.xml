@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cc2cd0f-da87-4319-b953-cb9c5895aaa4" name="Changes" comment="" />
+    <list default="true" id="5cc2cd0f-da87-4319-b953-cb9c5895aaa4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lists/ArrayListToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lists/ArrayListTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lists/RemoveLastElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lists/RemoveLowGPAStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maps/CharacterFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maps/StudentHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maps/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sets/HashSetIteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sets/RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,21 +41,33 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2bj6V1gmiyya9K8Tvs4o4HOzOJ9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
+    "Application.ArrayListToArray.executor": "Run",
+    "Application.ArrayListTraversal.executor": "Run",
+    "Application.CharacterFrequency.executor": "Run",
     "Application.FactorialCalculator.executor": "Run",
     "Application.FileReadingExample.executor": "Run",
+    "Application.HashSetIteration.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Palindrome.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
+    "Application.RemoveLastElement.executor": "Run",
+    "Application.RemoveLowGPAStudents.executor": "Run",
     "Application.RepeatedCharacters.executor": "Run",
     "Application.StringToIntConverter.executor": "Run",
+    "Application.StudentHashMap.executor": "Run",
     "Application.SwapWithoutThirdVariable.executor": "Run",
+    "Application.TwoSum.executor": "Run",
     "Application.VowelCounter.executor": "Run",
     "JUnit.AverageOfSquaresOfOddNumbersTest.executor": "Run",
     "JUnit.CapitalizeandSortTest.executor": "Run",
@@ -175,6 +198,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -182,11 +208,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/lambdas/StringSorterTest.java</url>
           <line>18</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/thread/DeadLockExample.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
